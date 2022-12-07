@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="88.928">
+    <testcase classname="Application" name="HomePage" time="88.68">
+        <system-out><![CDATA[Given user Enter The Url....................................................passed
+Then user Select The State..................................................passed
+And user Select The District................................................passed
+Then user Click The Button..................................................passed
+When user Click The Required Options........................................passed
+Then user Gets The Mulitiple Suggestions....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

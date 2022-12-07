@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-26T23:40:32 IST" name="Default suite" finished-at="2022-11-26T23:41:19 IST" duration-ms="46711">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T23:40:32 IST" name="Default test" finished-at="2022-11-26T23:41:19 IST" duration-ms="46711">
+      <class name="com.TestNg.CowinTestNG">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.TestNg.CowinTestNG@647fd8ce]" started-at="2022-11-26T23:40:32 IST" name="browserLaunch" finished-at="2022-11-26T23:40:52 IST" duration-ms="19387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="selectState()[pri:0, instance:com.TestNg.CowinTestNG@647fd8ce]" started-at="2022-11-26T23:40:52 IST" name="selectState" finished-at="2022-11-26T23:40:58 IST" duration-ms="6322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectState -->
+        <test-method signature="selectDistrict()[pri:0, instance:com.TestNg.CowinTestNG@647fd8ce]" started-at="2022-11-26T23:40:58 IST" name="selectDistrict" finished-at="2022-11-26T23:41:02 IST" depends-on-methods="com.TestNg.CowinTestNG.selectState" duration-ms="4236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDistrict -->
+        <test-method signature="clickButton()[pri:1, instance:com.TestNg.CowinTestNG@647fd8ce]" started-at="2022-11-26T23:41:02 IST" name="clickButton" finished-at="2022-11-26T23:41:09 IST" duration-ms="6241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickButton -->
+        <test-method signature="search()[pri:2, instance:com.TestNg.CowinTestNG@647fd8ce]" started-at="2022-11-26T23:41:09 IST" name="search" finished-at="2022-11-26T23:41:16 IST" duration-ms="6982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="hospitalCount()[pri:0, instance:com.TestNg.CowinTestNG@647fd8ce]" started-at="2022-11-26T23:41:16 IST" name="hospitalCount" finished-at="2022-11-26T23:41:19 IST" depends-on-methods="com.TestNg.CowinTestNG.search" duration-ms="3308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalCount -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.TestNg.CowinTestNG@647fd8ce]" started-at="2022-11-26T23:41:19 IST" name="close" finished-at="2022-11-26T23:41:19 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.TestNg.CowinTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
